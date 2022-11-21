@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { User } from '../../types/User';
 import { useFetchUserDetails } from '../../services/requests/useFetchUserDetails';
 
@@ -7,7 +8,7 @@ interface UserCardProps {
   userInfo: User;
 }
 
-export function Card({ userInfo }: UserCardProps) {
+function Card({ userInfo }: UserCardProps) {
   const { data: userDetails, isFetching } = useFetchUserDetails(userInfo?.login);
 
   if (isFetching) return <></>;
@@ -51,3 +52,5 @@ export function Card({ userInfo }: UserCardProps) {
     </Container>
   );
 }
+
+export default memo(Card)

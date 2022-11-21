@@ -1,6 +1,6 @@
 import { useFetchUsersList } from '../../services/requests/useFetchUsersList';
 
-import { Card } from '../../components/Card';
+import Card from '../../components/Card';
 import { Loading } from '../../components/Loading';
 
 import { Container } from './styles';
