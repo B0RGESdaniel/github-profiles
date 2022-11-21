@@ -14,9 +14,13 @@ Basta clonar o repositório no terminal
 ```
   git clone https://github.com/B0RGESdaniel/github-profiles.git
 ```
-Depois é só usar rodar o yarn para instalar as dependências
+Rodar o yarn para instalar as dependências
 ```
   yarn
+```
+Depois é só rodar o comando abaixo e abrir o servidor no browser de sua preferência
+```
+  yarn dev
 ```
 ## Preview
 ![](https://github.com/B0RGESdaniel/github-profiles/blob/master/public/github-profiles2.gif)
