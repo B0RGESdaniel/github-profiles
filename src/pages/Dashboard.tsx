@@ -2,7 +2,7 @@ import { Card } from "../components/Card";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 
-import api from '../services/api'
+import { api } from '../services/api'
 
 export interface User {
     name: string;
