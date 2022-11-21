@@ -1,4 +1,4 @@
-import { UserCard } from "../components/UserCard";
+import { Card } from "../components/Card";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 
@@ -36,7 +36,7 @@ export function Dashboard() {
     return ( 
         <Container>
             { users.map(user => (
-                <UserCard key={user.id} userInfo={user}/>
+                <Card key={user.id} userInfo={user}/>
             ))
             }
         </Container>
