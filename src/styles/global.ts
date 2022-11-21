@@ -30,7 +30,7 @@ export default createGlobalStyle`
         font: 1rem sans-serif;
     }
 
-    button {
+    button, img, a {
         cursor: pointer;
     }
 `;
