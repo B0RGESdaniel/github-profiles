@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-interface TesteProps {
+interface StatProps {
     info?: 'followers' | 'following' | 'repos'
 }
 
@@ -68,7 +68,7 @@ export const UserStats = styled.div`
     border-top: 1px solid var(--gray-500);
 `;
 
-export const StatInfo = styled.div<TesteProps>`
+export const StatInfo = styled.div<StatProps>`
     display: flex;
     flex-direction: column;
     align-items: center;
