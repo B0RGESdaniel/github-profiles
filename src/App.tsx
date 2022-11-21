@@ -1,7 +1,8 @@
-import { Dashboard } from "./pages/Dashboard";
-import { Header } from "./components/Header";
+import { Dashboard } from './pages/Dashboard';
+import { Header } from './components/Header';
 
-import GlobalStyle from './styles/global'
+import GlobalStyle from './styles/global';
+import { ToastContainer } from 'react-toastify';
 
 export function App() {
   return (
@@ -9,8 +10,17 @@ export function App() {
       <Header />
       <Dashboard />
       <GlobalStyle />
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        pauseOnHover
+        theme="dark"
+      />
     </>
-
-  )
+  );
 }
-
