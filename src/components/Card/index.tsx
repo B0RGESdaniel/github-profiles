@@ -10,19 +10,6 @@ interface UserCardProps {
   userInfo: User;
 }
 
-const emptyUser = {
-  name: '',
-  login: '',
-  id: 1,
-  avatar_url: '',
-  html_url: '',
-  starred_url: '',
-  bio: '',
-  public_repos: 0,
-  followers: 0,
-  following: 0,
-};
-
 export function Card({ userInfo }: UserCardProps) {
   const { data: userDetails, isFetching } = useFetchUserDetails(userInfo?.login);
 
