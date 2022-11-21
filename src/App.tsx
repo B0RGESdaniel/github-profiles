@@ -1,8 +1,10 @@
 import { Dashboard } from './pages/Dashboard';
 import { Header } from './components/Header';
 
-import GlobalStyle from './styles/global';
 import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+import GlobalStyle from './styles/global';
 
 export function App() {
   return (
@@ -11,15 +13,16 @@ export function App() {
       <Dashboard />
       <GlobalStyle />
       <ToastContainer
-        position="top-right"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        pauseOnHover
-        theme="dark"
+      position="top-right"
+      autoClose={5000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="dark"
       />
     </>
   );
