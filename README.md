@@ -1,7 +1,8 @@
 # github-profiles
 
-Projeto desenvolvido em React utilizando Typescript com o Vite.js. <br/>
-Mostra alguns usuários do Github com seus respectivos nome de usuário, bio e número de seguidores, pessoas seguindo e repositórios públicos
+Projeto desenvolvido em React utilizando Typescript com o Vite.js <br/>
+Mostra alguns usuários do Github com seus respectivos nome de usuário, bio e número de seguidores, pessoas seguindo e repositórios públicos <br/>
+Utiliza a paleta de cores do próprio Github
 ## Algumas bibliotecas usadas
 - styled-components
 - axios
