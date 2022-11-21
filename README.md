@@ -9,7 +9,9 @@ Utiliza a paleta de cores do próprio Github
 - react-toastify
 - react-icons
 - prettier
-## Para utilizar
+## Deploy da aplicação disponível
+https://github-profiles-inky-seven.vercel.app
+## Para utilizar remotamente
 Basta clonar o repositório no terminal
 ```
   git clone https://github.com/B0RGESdaniel/github-profiles.git
